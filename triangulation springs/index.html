@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>deck.gl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {margin: 0; font-family: sans-serif; width: 100vw; height: 100vh; overflow: hidden;}
+    #legend {
+      position: absolute;
+      top: 10px;
+      right: 40px;
+      left:auto;
+      width: 120px;
+      height: 300px;
+      z-index:1;
+      overflow-x: hidden;
+      overflow-y: overlay;
+    }
+  </style>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+  <canvas id="legend" width="120" height="300" ></canvas>
+<div id="app">
+</div>
+</body>
+<script type="module">
+  import {renderToDOM} from './app.jsx';
+  renderToDOM(document.getElementById('app'));
+</script>
+</html>

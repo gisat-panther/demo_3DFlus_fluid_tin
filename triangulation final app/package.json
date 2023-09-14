@@ -1,0 +1,25 @@
+{
+  "name": "geographical-data-visualization",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.6.7",
+    "@deck.gl/layers": "^8.6.7",
+    "@deck.gl/react": "^8.7.0",
+    "@loaders.gl/core": "^3.1.7",
+    "@loaders.gl/json": "^3.1.7",
+    "@loaders.gl/obj": "^3.1.8",
+    "@luma.gl/core": "^8.5.10",
+    "@luma.gl/webgl": "^8.5.10",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-map-gl": "^5.3.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
